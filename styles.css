@@ -1,3 +1,21 @@
+* {
+    height: 100vh;
+}
+
 body{
     background-color: #686de0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 500px;
+    height: 150px;
+    max-width: 100%;
+    padding: 50px 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
