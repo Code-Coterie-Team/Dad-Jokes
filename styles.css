@@ -1,9 +1,9 @@
 * {
-    height: 100vh;
     box-sizing: border-box;
 }
 
 body{
+    height: 100vh;
     background-color: #686de0;
     display: flex;
     justify-content: center;
@@ -23,9 +23,23 @@ body{
 }
 
 .header{
-    margin: 0;
     opacity: 0.5;
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 0.7em;
+}
+
+.joke{
+    padding: 15px;
+}
+
+.btn{
+    background-color: #9f68e0;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+    font-size: 10px;
+    cursor: pointer;
 }
